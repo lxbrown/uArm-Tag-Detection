@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="CopyOfBoxRetrieve.java" kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="src" path="data"/>
+	<classpathentry kind="lib" path="lib/uArm Client/core.jar"/>
+	<classpathentry kind="lib" path="lib/uArm Client/G4P.jar"/>
+	<classpathentry kind="lib" path="lib/uArm Client/gluegen-rt-natives-windows-amd64.jar"/>
+	<classpathentry kind="lib" path="lib/uArm Client/gluegen-rt.jar"/>
+	<classpathentry kind="lib" path="lib/uArm Client/gstreamer-java.jar"/>
+	<classpathentry kind="lib" path="lib/uArm Client/jna.jar"/>
+	<classpathentry kind="lib" path="lib/uArm Client/jogl-all-natives-windows-amd64.jar"/>
+	<classpathentry kind="lib" path="lib/uArm Client/jogl-all.jar"/>
+	<classpathentry kind="lib" path="lib/uArm Client/jssc.jar"/>
+	<classpathentry kind="lib" path="lib/april tag/april.jar"/>
+	<classpathentry kind="lib" path="lib/jeromq/jeromq-0.2.0.jar"/>
+	<classpathentry kind="lib" path="lib/uArm Client/video.jar"/>
+	<classpathentry kind="lib" path="lib/uArm Client/lcm.jar"/>
+	<classpathentry kind="lib" path="lib/uArm Client/RXTXcomm.jar"/>
+	<classpathentry kind="lib" path="lib/uArm Client/serial.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
