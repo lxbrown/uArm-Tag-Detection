@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+  <!-- <EditText
+        android:id="@+id/text_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Please enter a message" />
+    
+     <Button
+        android:id="@+id/button_send_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Send" />  -->
+
+    <com.camera.simplemjpeg.MjpegView
+        android:id="@+id/mv"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         />
+
+    <Button
+        android:id="@+id/button_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="42dp"
+        android:layout_marginRight="74dp"
+        android:text="No" />
+
+    <Button
+        android:id="@+id/button_yes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_no"
+        android:layout_alignBottom="@+id/button_no"
+        android:layout_toLeftOf="@+id/button_no"
+        android:text="Yes" />
+
+    <TextView
+        android:id="@+id/text_console"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button_no"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/button_yes"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageButton
+        android:id="@+id/down_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_yes"
+        android:layout_alignLeft="@+id/up_arrow"
+        android:layout_marginBottom="49dp"
+        android:src="@android:drawable/arrow_down_float" />
+
+    <Button
+        android:id="@+id/left_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/down_arrow"
+        android:layout_toLeftOf="@+id/up_arrow"
+        android:text="&lt;" />
+
+    <Button
+        android:id="@+id/right_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/left_arrow"
+        android:layout_alignBottom="@+id/left_arrow"
+        android:layout_toRightOf="@+id/up_arrow"
+        android:text=">" />
+
+    <ImageButton
+        android:id="@+id/up_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/left_arrow"
+        android:layout_alignLeft="@+id/button_yes"
+        android:src="@android:drawable/arrow_up_float" />
+
+    <Button
+        android:id="@+id/forward_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/up_arrow"
+        android:layout_alignRight="@+id/button_yes"
+        android:text="Forward" />
+
+    <Button
+        android:id="@+id/backward_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_yes"
+        android:layout_alignRight="@+id/button_yes"
+        android:text="Backward" />
+   
+</RelativeLayout>
