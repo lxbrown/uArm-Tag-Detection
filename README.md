@@ -1,5 +1,5 @@
 # uArm-Tag-Detection
-Utilizing the april library created at the University of Michigan and the open source uArm Client created by the makers of the uArm, control the uArm and have it automatically send and recieve commands from an Android device, have the Android device control the uArm, and detect and retrieve boxes with april tags.
+Utilizing the april library created at the University of Michigan and the open source uArm Client created by the makers of the uArm, control the uArm from a linux computer and have it automatically detect and retrieve tagged boxes. It can also send and recieve commands from an Android device. The Android device can control the uArm or tell the uArm to pick up a box when one is detected.
 
 TagDetection is the java program to be run on a linux machine and AndroidArmGUI is the Android application.
 
