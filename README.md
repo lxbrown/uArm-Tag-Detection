@@ -3,11 +3,11 @@ Utilizing the april library created at the University of Michigan and the open s
 
 TagDetection is the java program to be run on a linux machine and AndroidArmGUI is the Android application.
 
-TagDetection created by Alex Brown
+TagDetection created by Alex Brown - lxbrown@umich.edu
 
-AndroidArmGUI created by Tonia Elengikal
+AndroidArmGUI created by Tonia Elengikal - eletonia@umich.edu
 
-Under the supervision and guidance of Justin Storms
+Under the supervision and guidance of Justin Storms - jgstorms@umich.edu
 
 This program uses open source content which can be downloaded at the following links from their original creators:
 
