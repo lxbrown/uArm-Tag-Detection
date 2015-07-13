@@ -1,5 +1,5 @@
 The following instructions are designed to help build and use the TagDetection program:
-1. Follow the instructions here http://rxtx.qbang.org/wiki/index.php/Main_Page to install the RXTX library used in the serial port communication.
+1. Follow the instructions here http://rxtx.qbang.org/wiki/index.php/Main_Page to install the RXTX library used in the serial port communication. You should just need to copy RXTXcomm.jar into /$JAVA_HOME/jre/lib/ext/ and librxtxSerial.so into /$JAVA_HOME/jre/lib/[machine type] (Java versions are located in /usr/lib/jvm/).
 
 2. Load the program into Eclipse or a similar IDE and make sure all of the libraries in the lib folder are included in the build path. *Note that the april library is only compatible with linux machines.
 
