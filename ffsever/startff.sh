@@ -1,5 +1,12 @@
 #!/bin/bash
 
+if [ ! -f "/etc/ffserver.conf" ];
+then {
+echo "Inserting necessary files"
+sudo cp ffserver.conf /etc/
+}
+fi
+
 echo "Setting up server"
 
 ffserver -f /etc/ffserver.conf &
