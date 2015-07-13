@@ -7,7 +7,9 @@ The following instructions are designed to help build and use the TagDetection p
 "sudo chmod 666 /dev/ttyUSB0"
 If the port is in a different location than /dev/ttyUSB0 use that instead.
 
-4. If you want to use the ffserver run the bash script "startff.sh" in the ffserver folder. If the webcam is in a different location than /dev/video1 edit the bash script to use the new location.
+4. If you want to use the ffserver first download ffmpeg: 
+https://www.ffmpeg.org/download.html
+Then run the bash script "startff.sh" in the ffserver folder. If the webcam is in a different location than /dev/video1 edit the bash script to use the new location.
 
 5. Run uArm_Client.java.
 
